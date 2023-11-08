@@ -1,0 +1,46 @@
+body {
+  background-color: #FBFADF;
+  color: #0a1520;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1{
+  color: #AC0C0C;
+}
+
+label {
+  color:#AC0C0C;
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 5px;
+
+}
+input [type="text"],
+input [type="email"],
+input [type="number"],
+input [type="data"] {
+  display: block;
+  width: 400px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.error {
+  color: red;
+  font-size: 12px;
+  text-align: left;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+button {
+  color: #A7D82E;
+}
